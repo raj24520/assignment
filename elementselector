@@ -1,0 +1,27 @@
+<HTML>
+<HEAD>
+	<TITLE>ELEMENT SELECTOR</TITLE>
+</HEAD>
+<style>
+	H1{
+		text-align: center;
+		color: orangered;
+	}
+	img{
+		display:  block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+</style>
+<BODY>
+  <H1>SACHIN TENDULKAR</H1>
+  <img src="Capture.PNG">
+  <p>Sachin Ramesh Tendulkar is an Indian former international cricketer who served as captain of the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket. He is the highest run scorer of all time in international cricket, and the only player to have scored one hundred international centuries and the first batsman to score a double century in a One Day International.</p>
+  <H1>VIRAT KOHLI</H1>
+  <img src="Capture2.PNG">
+  <P>Virat Kohli is an Indian cricketer and the current captain of the India national team. A right-handed top-order batsman, Kohli is regarded as one of the best contemporary batsmen in the world. He plays for Delhi in domestic cricket and for Royal Challengers Bangalore in the Indian Premier League (IPL) as captain of the franchise since 2013. Kohli captained India Under-19s to victory at the 2008 World Cup.</P>
+  <H1>ROHIT SHARMA</H1>
+  <img src="Capture3.JPG">
+  <P>Rohit Gurunath Sharma (born 30 April 1987) is an Indian international cricketer who plays for Mumbai in domestic cricket and captains Mumbai Indians in the Indian Premier League as a right-handed batsman and an occasional right-arm off break bowler. He is the vice-captain of the Indian national team in limited-overs formats. Outside cricket, Sharma is an active supporter of animal welfare campaigns. He is the official Rhino Ambassador for WWF-India and is a member of People for the Ethical Treatment of Animals (PETA). He has worked with PETA in its campaign to raise awareness of the plight of homeless cats and dogs in India.</P>
+</BODY>
+</HTML>
