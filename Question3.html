@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	<TITLE>DESCENDANT AND CHILD SELECTOR</TITLE>
+</HEAD>
+<STYLE>
+BODY{
+	background-color: yellow;
+}
+H1{
+	text-align: center;
+}
+div p{
+	background-color: red;
+}
+.center{
+	font-style: italic;
+	background-color: orange;
+}
+article>ol{
+	background-color: orange;
+}
+</STYLE>
+<BODY>
+<H1>DESCENDANT SELECTOR</H1>
+<p><span class="center">Descendant selectors</span> matches all elements that are descendants of a specified element</p>
+<div><p>This is first paragraph.</p>
+	<p>This is second paragraph.</p>
+	<section>This is inside section tag.</section>
+	<p>This is third paragraph.</p>
+	</div>
+<H1>CHILD SELECTOR</H1>
+<p><span class="center">The child selector</span> selects all elements that are the children of a specified element.</p>
+<article>
+	<ol>
+		<li>This is item 1.</li>
+		<li>This is item 2.</li>
+		<section><li>This is item 3.</li></section>
+	</ol>
+	<li>This is unordered list item outside of ordered list.</li>	
+</article>		
+</BODY>
+</HTML>
