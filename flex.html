@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	<TITLE>FLEX</TITLE>
+	<style>
+	body{
+		background-color: lightyellow;
+	}
+		h1{
+			text-align: center;
+			color: red;
+		}
+		.container{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: safe center;
+			padding: 40px;
+            border: 40px solid orange;
+            background: lightblue;
+            margin: 40px;
+		  }
+		  .h{
+		  	color: darkorange;
+		  	font-size: 30px;
+		  }
+		  .box{
+		    display: flex;
+		  	flex-grow: 1;
+		  	flex-shrink: 1;
+		  	flex-basis: 100px;
+		  	padding: 30px;
+            border: 30px solid orange;
+            background: lightyellow;
+            margin: 40px;
+         }		  
+	</style>
+</HEAD>
+<body>
+	<h1>FLEX PROPERTIES</h1>
+	<H1>FLEX-WRAP</H1>
+	<center><b class="h">SEVEN WONDERS OF THE WORLD</b></center>
+    <div class="container">
+        <img src="Capture1.JPG" alt="1" width="300" height="200">
+        <img src="Capture2.JPG" alt="1" width="300" height="200">
+        <img src="Capture3.JPG" alt="1"width="300" height="200">
+        <img src="Capture4.JPG" alt="1" width="300" height="200">
+        <img src="Capture5.JPG" alt="1" width="300" height="200">
+        <img src="Capture6.JPG" alt="1" width="300" height="200">
+        <img src="Capture7.JPG" alt="1" width="300" height="200">
+    </div>
+    <H1>*FLEX-GROW <br>*FLEX SHRINK<br> *FLEX BASIS</H1>
+    <div class="box">
+          <div style="background-color: red; width: 100;">BLOCK TAG 1</div>
+          <div style="background-color: blue;">BLOCK TAG 2</div>
+          <div style="background-color: green;">BLOCK TAG 3</div>
+          <div style="background-color: purple;">BLOCK TAG 4</div>
+      </div>
+</body>
+</HTML>
